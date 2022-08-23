@@ -29,7 +29,7 @@ struct VerticalLineView: View {
         switch options {
         case .defaults:
             return Divider()
-                .background(Color.gray)
+                .background(Color.blue)
                 .frame(height: lineHeight)
                 .offset(x: lineXPosition/2 - Utils.threeFourthSpacing, y: (lineYPosition - lineYPosition / 2 ))
                 .padding()
